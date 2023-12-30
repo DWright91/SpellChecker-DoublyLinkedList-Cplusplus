@@ -1,7 +1,6 @@
 # Output
 
 Summary:
-
 This program uses two classes in order of attaining the doubly linked list, basically your standard linked list except in order for it to be a doubly linked list
 you need each node to have two pointers one for the next and one for the previous node. The list starts at a head pointer then the next pointer is null more-over 
 the last pointer is also null in the linked list, this makes it possible to traverse the list automatically between the null pointers. Part 2, the program reads 
