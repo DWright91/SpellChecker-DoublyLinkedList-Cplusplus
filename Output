@@ -1,0 +1,66 @@
+# Output
+
+Summary:
+
+This program uses two classes in order of attaining the doubly linked list, basically your standard linked list except in order for it to be a doubly linked list
+you need each node to have two pointers one for the next and one for the previous node. The list starts at a head pointer then the next pointer is null more-over 
+the last pointer is also null in the linked list, this makes it possible to traverse the list automatically between the null pointers. Part 2, the program reads 
+words from a file into a container then uses function to check correct spelling of the words based on a given in-file dictionary and displays the words that are 
+incorrect based on the spelling within the dictionary file.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Output:
+//ScriptTest1
+Script started
+> PgmRun
+
+Testing the Link-Based Bag:
+The initial bag is empty.
+isEmpty: returns 1; should be 1 (true)
+The bag contains 0 items:
+
+
+Add 6 items to the bag: 
+The bag contains 6 items:
+one five four three two one 
+
+isEmpty: returns 0; should be 0 (false)
+getCurrentSize: returns 6; should be 6
+Try to add another entry: add("extra") returns 1
+contains("three"): returns 1; should be 1 (true)
+contains("ten"): returns 0; should be 0 (false)
+getFrequencyOf("one"): returns 2 should be 2
+remove("one"): returns 1; should be 1 (true)
+getFrequencyOf("one"): returns 1 should be 1
+remove("one"): returns 1; should be 1 (true)
+remove("one"): returns 0; should be 0 (false)
+
+The bag contains 5 items:
+extra five four three two 
+
+After clearing the bag, isEmpty: returns 1; should be 1 (true)
+All done!
+> ^Dexit
+
+script done
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+//ScriptTest2
+Script started
+> PgmRun2
+
+Program Starting... 
+Enter the name of the file that contains words to check: wordTest.txt
+Here are the words found in dictionary:
+test
+exam
+study
+write
+read
+
+The following words in the file "wordTest.txt" are not spelled correctly:
+reed
+tes
+
+> ^Dexit
+
+script done
